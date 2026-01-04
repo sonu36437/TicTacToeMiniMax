@@ -76,6 +76,9 @@ export default function Board() {
      
       
     })
+    return ()=>{
+      socket.disconnect();
+    }
   
     
 
